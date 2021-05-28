@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <link rel="stylesheet" type="text/css" href="display.css">
+  <link rel="stylesheet" type="text/css" media="(max-device-width:480px)" href="mobile.css" />
+  <link rel="stylesheet" href="../Practice_23.11/node_modules/bootstrap/dist/css/bootstrap-grid.css">
+  <title>Navbar Template · Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  
+  <!-- Custom styles for this template -->
+  <link href="navbar.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="icons/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+        aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Питание</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trainings.html">Тренировки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Maraphones.html">Марафоны</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Trainers.html">Тренер</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shagomer.html">Шагомер</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <br>
+    <div class="container">
+      <div id="buttons">
+        <div class="row">
+        <div class="col" style="text-align: center;">
+          <button type="button" class="btn btn-outline-success" style="width: 200px;" onclick="toggle_visibility('toggle1','toggle2','toggle3');">Йога</button>
+        </div>  
+        <div class="col" style="text-align: center;">
+          <button type="button" class="btn btn-outline-success" style="width: 200px;" onclick="toggle_visibility('toggle2','toggle1','toggle3');">Бег</button>
+        </div>
+        <div class="col" style="text-align: center;">
+          <button type="button" class="btn btn-outline-success" style="width: 200px;" onclick="toggle_visibility('toggle3','toggle1','toggle2');">Кроссфит</button>
+        </div>
+      </div>
+    </div>
+      <br>
+    
+      <div id="toggle1">
+        <h1 style="text-align: center;">Йога</h1><hr>
+        <div class="row">
+          <div class="col">
+            <img style="width: 600px;" src="./icons/yoga.jpg" alt="">
+          </div>
+          <div class="col">
+            <article>
+              <p>
+                Польза йоги для здоровья заключается в том, то она способствует снятию болей и положительно влияет на позвоночник: устраняет напряжение, повышает гибкость, улучшает осанку и избавляет от его искривлений. Она благоприятно сказывается на всех системах организма. При выполнении упражнений, воздействующих на внутренние механизмы, массируются железы и внутренние органы, что налаживает их работу и помогает в оздоровлении.
+
+                Занятия йогой позволяют укрепить иммунитет и избавиться от ряда заболеваний — от артрита, бесплодия, головных болей, болезней легких, диабета и ожирения. Она снимает стресс и депрессию, помогает от бессонницы. Дыхательные упражнения вентилируют легкие, что приводит к нормализации метаболизма и комплексному расслаблению организма. Йога улучшает координацию, внимание и память.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div id="toggle2">
+        <h1 style="text-align: center;">Бег</h1><hr>
+        <div class="row">
+          <div class="col">
+            <img style="width: 600px;" src="./icons/running.jpg" alt="">
+          </div>
+          <div class="col">
+            <article>
+              <p>
+                Бег – это один из видов физической нагрузки, который выбирают для поддержания здоровья и положительных эффектов для организма многие жители Нижневартовска. Бегают как на Комсомольском озере, так и на набережной, в утренние часы и дневные, кто-то отдает предпочтение открытым стадионам, кто-то может заниматься или в тренажерном зале или дома, имея беговую дорожку. Но все они бегают – и бег выбирают многие.
+    
+                Польза его неоценима для здоровья. При беге идет интенсификация (насыщение) тканей кислородом, благоприятно его воздействие и на сердечно-сосудистую систему. Повышая выносливость и силу сердечной мышцы, укрепляет стенки сосудов - это приводит к стабилизации артериального давления в молодом возрасте. При длительном беге увеличивается экскурсия легких (объем легких за счет тренированности мышц, отвечающих за дыхание). При беге повышается настроение, улучшается работа головного мозга и желудочно-кишечного тракта. Бег на открытом воздухе повышает иммунитет.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    
+      <div id="toggle3">
+        <h1 style="text-align: center;">Кроссфит</h1><hr>
+        <div class="row">
+          <div class="col">
+            <img style="width: 600px;" src="./icons/crossfit.jpg" alt="">
+          </div>
+          <div class="col">
+            <article>
+              <p>
+                Пoльзa кpoccфитa cocтoит, в пepвyю oчepeдь, вo вcecтopoннeм физичecкoм paзвитии. Яcнo, чтo пpoгpaммa пoдoйдeт тoлькo aбcoлютнo здopoвым людям c oпpeдeлeнным ypoвнeм физичecкoй пoдгoтoвки. B любoм cлyчae, пpeдвapитeльнaя кoнcyльтaция c вpaчoм или экcпepтoм пo кpoccфитy oбязaтeльнa.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <br>
+        <h1 style="text-align: center; text-transform: uppercase;">
+        Скачивай ControlHealth и получай больше тренировок</h1>
+        <div class="col" style="text-align: center;">
+          <img src="./icons/appstore.png" alt="">
+        </div>
+        <div class="col" style="text-align: center;">
+          <img src="./icons/playmarket.png" alt="">
+        </div>
+      </div>
+      <br>
+    </div>
+      <br>
+    </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Our social networks:</p>
+          <a class="a" href="#" id="menu"></a>
+          <a class="a" href="#" id="menu1"></a>
+          <a class="a" href="#" id="menu2"></a>
+        </div>
+        <div class="col">
+          <p>Our contacts:</p>
+          <a href="#">
+            <h5>Tel.: +38 093 43 433 43 </h5>
+          </a>
+        </div>
+      </div>
+  </footer>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="./dist/js/bootstrap.bundle.min.js">
+  </script>
+<script type="text/javascript">
+  function toggle_visibility(id1,id2,id3) {
+      var e1 = document.getElementById(id1);
+      if(e1.style.display == 'block')
+         e1.style.display = 'none';
+      else
+         e1.style.display = 'block';
+
+      var e2 = document.getElementById(id2);
+      if(e2.style.display == 'block')
+         e2.style.display = 'none';
+
+      var e3 = document.getElementById(id3);
+      if(e3.style.display == 'block')
+         e3.style.display = 'none';
+  }
+</script>
+
+     
+</body>
+
+</html>
